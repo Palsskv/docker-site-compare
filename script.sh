@@ -9,7 +9,7 @@ compare"
 fi
 
 function crawl {
-  mkdir -p /mnt/c/crawl/
+  mkdir -p /crawl/
 
   touch /crawl/preprocessing.temp
   touch /crawl/"$1"
